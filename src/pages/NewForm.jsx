@@ -53,7 +53,7 @@ export const NewForm = () => {
      <div className="flex justify-center">
       <button
       onClick={() => {
-        axios.post("http://localhost:3000/api/v1/blood/donated", {
+        axios.post("https://blood-bank-backend-r2ru.onrender.com/api/v1/blood/donated", {
             patientName : name,
             bloodType: bloodType,
             address: localStorage.getItem("address")

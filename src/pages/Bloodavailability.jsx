@@ -11,7 +11,7 @@ function Bloodavailablity() {
 
   
   const fetch = async ()=>{
-    await axios.post("http://localhost:3000/api/v1/blood/available", {
+    await axios.post("https://blood-bank-backend-r2ru.onrender.com/api/v1/blood/available", {
             bloodType: bloodType
         }, {
             headers: {

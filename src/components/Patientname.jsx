@@ -8,7 +8,7 @@ function Patientname(props) {
     const navigate = useNavigate()
 
     const clickHandler = async ()=>{
-        axios.post("http://localhost:3000/api/v1/blood/recieved", {
+        axios.post("https://blood-bank-backend-r2ru.onrender.com/api/v1/blood/recieved", {
                  patientName: name,
                  bloodType: bloodType
             }, {
