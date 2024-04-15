@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 import { Appbar } from "../components/Appbar";
 import { InputBox } from "../components/InputBox";
 import { BottomWarning } from "../components/BottomWarning";
-import Patientname from "../components/Patientname";
+
 
 export const NewForm = () => {
   const navigate = useNavigate();
