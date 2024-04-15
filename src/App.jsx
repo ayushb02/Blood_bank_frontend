@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Signup } from './pages/Signup'
 import { Signin } from './pages/Signin'
 import { Dashboard } from './pages/Dashboard'
-import { NewForm } from './pages/newForm'
+import { NewForm } from './pages/NewForm'
 import Bloodavailablity from './pages/Bloodavailability'
 
 
